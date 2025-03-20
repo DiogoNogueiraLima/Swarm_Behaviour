@@ -1,0 +1,249 @@
+[
+    {
+        "Modelo": "Comit\u00ea de Redes Neurais",
+        "Acur\u00e1cia": 0.9567027477102414,
+        "Precis\u00e3o": 0.9602055981483082,
+        "Recall": 0.9567027477102414,
+        "F1-score": 0.9566519809825937,
+        "AUC-ROC": 0.9999795425967345,
+        "Matriz de Confus\u00e3o": [
+            [
+                2233,
+                208
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "estimator__activation": "relu",
+            "estimator__alpha": 0.0011208547084229376,
+            "estimator__hidden_layer_sizes": [
+                50
+            ],
+            "n_estimators": 14
+        }
+    },
+    {
+        "Modelo": "Comit\u00ea Heterog\u00eaneo (Stacking)",
+        "Acur\u00e1cia": 0.9993755203996669,
+        "Precis\u00e3o": 0.9993763122165736,
+        "Recall": 0.9993755203996669,
+        "F1-score": 0.9993755264894333,
+        "AUC-ROC": 0.9999993065287028,
+        "Matriz de Confus\u00e3o": [
+            [
+                2438,
+                3
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "et__n_estimators": 14,
+            "final_estimator__C": 1.0769622478263126,
+            "gb__learning_rate": 0.06333383069438317,
+            "gb__max_iter": 16,
+            "rf__n_estimators": 27
+        }
+    },
+    {
+        "Modelo": "KNN",
+        "Acur\u00e1cia": 1.0,
+        "Precis\u00e3o": 1.0,
+        "Recall": 1.0,
+        "F1-score": 1.0,
+        "AUC-ROC": 1.0,
+        "Matriz de Confus\u00e3o": [
+            [
+                2441,
+                0
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "n_neighbors": 3,
+            "p": 2,
+            "weights": "uniform"
+        }
+    },
+    {
+        "Modelo": "LightGBM",
+        "Acur\u00e1cia": 1.0,
+        "Precis\u00e3o": 1.0,
+        "Recall": 1.0,
+        "F1-score": 1.0,
+        "AUC-ROC": 1.0,
+        "Matriz de Confus\u00e3o": [
+            [
+                2441,
+                0
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "colsample_bytree": 0.6362425738131283,
+            "learning_rate": 0.03402648808424155,
+            "max_depth": 14,
+            "n_estimators": 84,
+            "subsample": 0.9932923543227152
+        }
+    },
+    {
+        "Modelo": "LVQ",
+        "Acur\u00e1cia": 0.9997918401332223,
+        "Precis\u00e3o": 0.9997919281873116,
+        "Recall": 0.9997918401332223,
+        "F1-score": 0.9997918408279161,
+        "AUC-ROC": 1.0,
+        "Matriz de Confus\u00e3o": [
+            [
+                2440,
+                1
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "alpha": 0.005262961031076741,
+            "hidden_layer_sizes": [
+                5
+            ]
+        }
+    },
+    {
+        "Modelo": "MLP (Rede Neural)",
+        "Acur\u00e1cia": 0.9460865945045795,
+        "Precis\u00e3o": 0.9514121368475673,
+        "Recall": 0.9460865945045795,
+        "F1-score": 0.9459769249579244,
+        "AUC-ROC": 0.9992342343201371,
+        "Matriz de Confus\u00e3o": [
+            [
+                2182,
+                259
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "activation": "relu",
+            "alpha": 0.0005611516415334506,
+            "hidden_layer_sizes": [
+                50
+            ],
+            "learning_rate": "constant",
+            "max_iter": 200
+        }
+    },
+    {
+        "Modelo": "Random Forest",
+        "Acur\u00e1cia": 0.9997918401332223,
+        "Precis\u00e3o": 0.9997919281873116,
+        "Recall": 0.9997918401332223,
+        "F1-score": 0.9997918408279161,
+        "AUC-ROC": 1.0,
+        "Matriz de Confus\u00e3o": [
+            [
+                2440,
+                1
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "criterion": "gini",
+            "max_depth": 13,
+            "min_samples_leaf": 8,
+            "min_samples_split": 6,
+            "n_estimators": 50
+        }
+    },
+    {
+        "Modelo": "SVM",
+        "Acur\u00e1cia": 0.9997918401332223,
+        "Precis\u00e3o": 0.9997919281873116,
+        "Recall": 0.9997918401332223,
+        "F1-score": 0.9997918408279161,
+        "AUC-ROC": 1.0,
+        "Matriz de Confus\u00e3o": [
+            [
+                2440,
+                1
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "C": 0.10051981180656774,
+            "gamma": "auto",
+            "kernel": "linear"
+        }
+    },
+    {
+        "Modelo": "XGBoost",
+        "Acur\u00e1cia": 1.0,
+        "Precis\u00e3o": 1.0,
+        "Recall": 1.0,
+        "F1-score": 1.0,
+        "AUC-ROC": 1.0,
+        "Matriz de Confus\u00e3o": [
+            [
+                2441,
+                0
+            ],
+            [
+                0,
+                2363
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "colsample_bytree": 0.5780093202212182,
+            "learning_rate": 0.0029375384576328283,
+            "max_depth": 13,
+            "n_estimators": 252,
+            "subsample": 0.9330880728874675
+        }
+    },
+    {
+        "Modelo": "\u00c1rvore de Decis\u00e3o",
+        "Acur\u00e1cia": 0.9868859283930058,
+        "Precis\u00e3o": 0.9872158750827984,
+        "Recall": 0.9868859283930058,
+        "F1-score": 0.9868808763678844,
+        "AUC-ROC": 0.9866694879390605,
+        "Matriz de Confus\u00e3o": [
+            [
+                2441,
+                0
+            ],
+            [
+                63,
+                2300
+            ]
+        ],
+        "Melhores Hiperpar\u00e2metros": {
+            "criterion": "entropy",
+            "max_depth": 10,
+            "min_samples_leaf": 1,
+            "min_samples_split": 13
+        }
+    }
+]
